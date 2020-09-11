@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.plasma_bank_cmh">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="MIST Blood Bank"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".see_all_users_and_edit"></activity>
+        <activity android:name=".see_all_users" />
+        <activity android:name=".record_donation" />
+        <activity android:name=".SeeDonationsActivity" />
+        <activity android:name=".statistics" />
+        <activity android:name=".password_reset" />
+        <activity android:name=".recovery_code" />
+        <activity android:name=".update_donor" />
+        <activity android:name=".donorlist" />
+        <activity android:name=".forgot_pass_confirm" />
+        <activity android:name=".pending_approval" />
+        <activity android:name=".pending_req" />
+        <activity android:name=".sign_up_confirm" />
+        <activity android:name=".password_change" />
+        <activity android:name=".acc_info" />
+        <activity android:name=".about_us" />
+        <activity android:name=".message" />
+        <activity android:name=".enroll" />
+        <activity android:name=".Home" />
+        <activity android:name=".sign_up" />
+        <activity android:name=".forgot_pass" />
+        <activity
+            android:name=".MainActivity"
+            android:label="MIST Blood Bank"
+            android:icon="@drawable/logo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

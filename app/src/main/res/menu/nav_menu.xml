@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/message"
+            android:icon="@drawable/message"
+            android:title="Message" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/about"
+            android:title="About" />
+
+
+
+    </group>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/acc_info"
+                android:icon="@drawable/account"
+                android:title="Account Information" />
+            <item
+                android:id="@+id/change_pass"
+                android:icon="@drawable/dd"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/log_out"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+
+
+
+    </group>
+
+
+</menu>

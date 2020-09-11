@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".record_donation"
+    android:layout_margin="20dp">
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="Record New Donation"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recordKeyTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Donor Serial Number :"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/recordNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Name:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/recordAddressTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Address:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/recordBloodGroupTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Blood:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/recordContactTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Contact:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/recordDOBTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Date Of Birth:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/recordMailTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Mail:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/recordMedicalHistoryLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Medical History:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/recordMedicalHistoryTextTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Medical History Description Here"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+                android:id="@+id/contents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Donations :"
+                android:textSize="18dp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/contents"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="34dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:textSize="16dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:text="Donation Date"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/recordDonationDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="#BFD8F3"
+                android:text="Click here to select date"
+                android:textSize="18dp" />
+
+
+            <Button
+                android:id="@+id/recordDonationButton"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/rounded_btn"
+                android:text="Record Donation"
+
+                android:textColor="#FFFFFF" />
+
+            <ProgressBar
+                android:id="@+id/recordProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible" />
+
+
+
+
+            <!--            <TextView-->
+            <!--                android:visibility="invisible"-->
+            <!--                android:id="@+id/donationCountTextView"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Past Donations By the donor:"-->
+            <!--                android:textSize="16dp"-->
+            <!--                android:layout_marginBottom="5dp"-->
+            <!--                />-->
+            <!--            <TextView-->
+            <!--                android:visibility="invisible"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Donations of the donor with date"-->
+            <!--                android:textSize="16dp"-->
+            <!--                android:layout_marginBottom="5dp"-->
+            <!--                />-->
+            <!--            <ListView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:id="@+id/dateListView"-->
+            <!--                />-->
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

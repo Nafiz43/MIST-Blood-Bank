@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Plasma_Bank_CMH</string>
+    <string name="toggle_open">OPEN</string>
+    <string name="toggle_close">CLOSE</string>
+    <string name="spin">Blood Group</string>
+
+    <string name="nafiz">Nafiz Imtiaz Khan</string>
+    <string name="nafiz_vai">Major Noor Nafiz Islam</string>
+    <string name="adeeb">Md Shadman Aadeeb</string>
+    <string name="head">Brig Gen Mohammad Sajjad Hossain</string>
+    <string name="nazrul_sir">Lt Col Dr. Muhammad Nazrul Islam</string>
+    <string name="about_app">
+        MIST Blood Bank app is a unique app which works as a database for storing details
+        about donor and stored blood information. The main purpose of the app is to create
+        and manage a platform for blood donors in MIST. This app will help the students of MIST
+        to get required blood fast. It will also help the doctors to check the availability
+        of blood in the blood bank.
+    </string>
+    <string name="about_us">
+        We, a team of students of Department of CSE, MIST prepared a plasma bank app
+        to make and manage a platform for blood donors.
+    </string>
+
+    <string name="about_us_header">Contact Information</string>
+
+    <string name="nafiz_details">
+
+        CSE-17
+        Department of Computer Science and Engineering
+        Military Institute of Science and Technology (MIST)
+        Mirpur Cantonment, Dhaka - 1216.
+        E-mail : imtiznafiz@gmail.com
+    </string>
+    <string name="adeeb_details">
+        CSE-17
+        Department of Computer Science and Engineering
+        Military Institute of Science and Technology (MIST)
+        Mirpur Cantonment, Dhaka - 1216.
+        E-mail : aadeeb1896@gmail.com
+    </string>
+    <string name="head_details">
+        Head of the Department
+        Department of Computer Science and Engineering (CSE)
+        Faculty of Electrical and Computer Engineering
+        Mirpur Cantonment, Dhaka-1216, Bangladesh.
+        Email: sajjad@cse.mist.ac.bd
+    </string>
+    <string name="nafiz_vai_details">
+        CSE-17
+        Department of Computer Science and Engineering
+        Military Institute of Science and Technology (MIST)
+        Mirpur Cantonment, Dhaka - 1216
+        E-mail : nafiz7731@gmail.com
+    </string>
+
+    <string name="nazrul_sir_details">Associate Professor (Instructor Class-A)
+        Department of Computer Science and Engineering (CSE)
+        Faculty of Electrical and Computer Engineering
+        Military Institute of Science and Technology (MIST)
+        Mirpur Cantonment, Dhaka-1216, Bangladesh.
+        Email: nazrulturku@gmail.com; nazrul@cse.mist.ac.bd</string>
+
+    <string name="chief">General Aziz Ahmed, SBP, BSP, BGBM, PBGBM, BGBMS, psc, G</string>
+
+    <string name="commandant">
+        Major General Wahid-uz-Zaman,ndc,aowc,psc,te
+        Commandant, Military Institute of Science and
+        Technology (Commandant MIST)
+    </string>
+    <string name="dgms">
+        Major General Dr. Md Fashiur Rahman – Director General, Directorate General Medical
+        Service (DG DGMS), Dhaka Cantonment
+    </string>
+    <string name="commandant_message">People who fight off COVID-19 carry a powerful memento in their blood:
+        antibodies that are primed to wipe out the disease. By lending these trained immune soldiers to other patients,
+        survivors might be able to knock out COVID-19.  The science that goes on behind the scenes in these types of
+        clinical trials is very important. This will provide the building blocks to make a vaccine or new therapies.
+        The endeavor of CMH and MIST for making the Plasma bank app will enhance the capability of CMH to give better
+        treatment to covid-19 Patients.</string>
+    <string name="chief_message">
+        I am optimistic about Plasma therapy by Combined Military Hospital(CMH),
+        as part of a clinical trial to help fighting against the COVID-19. The plasma
+        bank app developed jointly by Military Institute of Science and Technology
+        (MIST) and CMH will make an effective bridge between plasma donors and patients.
+    </string>
+    <string name="dgms_message">
+        It’s not currently known if convalescent plasma therapy will be an effective treatment against COVID-19.
+        Since there are no known effective treatments, multiple options are under investigation by the scientific
+        community. Some information suggests that convalescent plasma could help some coronavirus patients - especially
+        those who are seriously ill. Since plasma transfusions are generally safe for most patients, it’s important to
+        investigate this as a treatment option.CMH(Combined Military Hospital)  is committed to assisting with plasma
+        collections from carefully-screened recovered COVID-19 patients to enable rapid access to treatment for the most
+        seriously ill patients. I hope the initiative of CMH and MIST(Military Institute of Science and Technology) for
+        developing “digital plasma bank” will be an excellent tool to provide plasma to patients efficiently.
+    </string>
+
+
+</resources>

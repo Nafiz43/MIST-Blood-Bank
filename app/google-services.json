@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "731185412340",
+    "firebase_url": "https://plasmabankcmh.firebaseio.com",
+    "project_id": "plasmabankcmh",
+    "storage_bucket": "plasmabankcmh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731185412340:android:daaae392937ebb63fdc6a1",
+        "android_client_info": {
+          "package_name": "com.example.plasma_bank_cmh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731185412340-71gjsdur3hmpgcoltt2irmq0k803q1p9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plasma_bank_cmh",
+            "certificate_hash": "7182094e8f8ce28ad3940e6914fe2d7c5af29392"
+          }
+        },
+        {
+          "client_id": "731185412340-6fr54rbk86a1tcpr9vfv6ncb4rcbs0r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgdy14ziJGlrUmcyQjzQx51UPqgusqwDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731185412340-6fr54rbk86a1tcpr9vfv6ncb4rcbs0r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
