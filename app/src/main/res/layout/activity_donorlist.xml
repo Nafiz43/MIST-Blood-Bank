@@ -119,19 +119,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         >
         <TextView
             android:id="@+id/lastDonationBeforeTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Last Donation Before:"
+            android:visibility="gone"
             />
         <EditText
             android:id="@+id/lastDonationBeforeEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberSigned"
-            android:hint="minimum 0 days " />
+            android:hint="minimum 1212 days "
+            android:visibility="gone"/>
 
     </LinearLayout>
 

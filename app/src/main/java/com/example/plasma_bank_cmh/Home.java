@@ -39,12 +39,15 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
 
 
 
-        if (role.equals("Staff")  || role.equals("Doctor"))
+        if (role.equals("Staff")  || role.equals("Doctor")  ||role.equals("Student"))
         {
             //+pending.setEnabled(false);
             View b = findViewById(R.id.pending);
             b.setVisibility(View.GONE);
-
+        }
+        if(role.equals("Student")){
+            View b = findViewById(R.id.enroll_id);
+            b.setVisibility(View.GONE);
         }
 
         //THESE LINES OF CODE JUST SET UP THE NAVIGATION DRAWER WITH ITS FUNCTIONALITY

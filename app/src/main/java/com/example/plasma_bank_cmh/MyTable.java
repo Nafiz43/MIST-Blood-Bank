@@ -177,8 +177,6 @@ public class MyTable {
                         "\nDOB: "+textView[5].getText()+
                         "\nmail: "+textView[6].getText()+
                         "\nhistory: "+textView[7].getText()+
-                        "\npositive date: "+textView[8].getText()+
-                        "\nnegative date: "+textView[9].getText()+
                         "\nlast donation date: "+textView[10].getText()
                 );
                 myAlertDialogBuilder.setCancelable(true);
